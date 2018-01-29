@@ -7,13 +7,13 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-# ZSH_THEME="robbyrussell"
-
+#ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
 # THIS THEME IS AWESOME
 #ZSH_THEME="mortalscumbag"
 
 #ZSH_THEME="bureau"
-ZSH_THEME="ys"
+#ZSH_THEME="ys"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -102,5 +102,5 @@ source $ZSH/oh-my-zsh.sh
 source ~/cli_hack/zsh/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/cli_hack/zsh/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-alias go="~/bash/go"
-
+source ~/cli_hack/zsh/.aliases
+source ~/cli_hack/zsh/.extra

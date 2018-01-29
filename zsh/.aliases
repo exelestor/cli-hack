@@ -1,0 +1,6 @@
+# work
+alias go="/opt/misc/go.sh"
+alias skit="python3 /opt/skit/skit.py"
+
+# zsh
+alias updrc="source ~/.zshrc"
